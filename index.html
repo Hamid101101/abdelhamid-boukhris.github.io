@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Abdelhamid Boukhris — Data Science Engineer focused on machine learning, applied AI, computer vision, NLP, and data systems.">
+  <meta name="theme-color" content="#fafaf8">
+  <title>Abdelhamid Boukhris — Data Science & AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Abdelhamid Boukhris home"><img src="images/logos/ab.png" alt="AB." width="64" height="48" style="display:block;width:64px;height:auto"></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#work">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <p class="eyebrow">DATA SCIENCE · MACHINE LEARNING · APPLIED AI</p>
+      <h1>Abdelhamid<br><span>Boukhris</span></h1>
+      <p class="hero-summary">I build practical machine-learning solutions, data workflows, and AI applications that turn complex data into useful results.</p>
+      <div class="hero-actions">
+        <a class="button button-dark" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+        <a class="text-link" href="#contact">Get in touch ↗</a>
+      </div>
+      <div class="hero-meta">
+        <span>Based in Fès, Morocco</span>
+        <span>Open to remote projects</span>
+        <span>Open to relocation across Morocco and internationally</span>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PROFESSIONAL EXPERIENCE</p>
+          <h2>Where I've worked</h2>
+        </div>
+        <p class="section-intro">Experience across production-oriented data science and applied AI research.</p>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-item">
+          <div class="experience-date">OCT 2025 — PRESENT</div>
+          <div class="experience-main">
+            <div class="experience-heading">
+              <h3>Data Science Engineer</h3>
+              <span class="experience-location">MLnetworks · Morocco</span>
+            </div>
+            <p class="experience-summary">Building AI-powered data workflows and machine-learning services for telecom network intelligence.</p>
+            <ul class="experience-points">
+              <li>Develop data pipelines and preprocessing workflows for large-scale operational and telemetry data.</li>
+              <li>Build machine-learning and analytics workflows for anomaly detection, predictive analysis, and time-series data.</li>
+              <li>Develop Python services and APIs to integrate data and model outputs into operational applications.</li>
+              <li>Work with data infrastructure and deployment tools to support reliable, maintainable services.</li>
+            </ul>
+            <ul class="tech-list"><li>Python</li><li>SQL</li><li>FastAPI</li><li>TimescaleDB</li><li>Docker</li><li>Machine Learning</li></ul>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="experience-date">MAR 2025 — AUG 2025</div>
+          <div class="experience-main">
+            <div class="experience-heading">
+              <h3>Research Engineer Intern — Computer Vision & Deep Learning</h3>
+              <span class="experience-location">Institut Pascal · CNRS · Université Clermont Auvergne, France</span>
+            </div>
+            <p class="experience-summary">Research project focused on depth estimation for minimally invasive surgery.</p>
+            <ul class="experience-points">
+              <li>Developed and evaluated deep-learning approaches for depth estimation in surgical scenes.</li>
+              <li>Worked with computer-vision methods and scientific Python workflows for model experimentation.</li>
+              <li>Compared model outputs through structured experiments and quantitative evaluation.</li>
+            </ul>
+            <ul class="tech-list"><li>Python</li><li>PyTorch</li><li>Computer Vision</li><li>Deep Learning</li><li>Depth Estimation</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED PROJECTS</p>
+          <h2>Work & experiments</h2>
+        </div>
+        <p class="section-intro">A selection of professional, research, and academic projects across applied AI and software development.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" data-filter="ml" aria-pressed="false">Machine learning</button>
+        <button class="filter" data-filter="vision" aria-pressed="false">Computer vision</button>
+        <button class="filter" data-filter="nlp" aria-pressed="false">NLP</button>
+        <button class="filter" data-filter="systems" aria-pressed="false">Data & systems</button>
+      </div>
+
+      <div class="project-list" id="project-list">
+        <article class="project" data-categories="systems ml">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <p class="project-type">DATA ENGINEERING · TIME SERIES</p>
+            <h3>Industrial Telemetry & Anomaly Analysis</h3>
+            <p>Data workflows for operational telemetry, organizing time-series signals for monitoring, anomaly analysis, and downstream analytics.</p>
+            <ul class="tech-list"><li>Python</li><li>SQL</li><li>TimescaleDB</li><li>FastAPI</li><li>Docker</li></ul>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </article>
+
+        <article class="project" data-categories="systems ml">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <p class="project-type">GRAPH ANALYSIS · ROOT-CAUSE INFERENCE</p>
+            <h3>Alarm Correlation</h3>
+            <p>An event-correlation workflow that groups related alarms and mines associations to support investigation of complex network events.</p>
+            <ul class="tech-list"><li>Python</li><li>Association mining</li><li>Graph analysis</li><li>Louvain</li><li>FastAPI</li></ul>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </article>
+
+        <article class="project" data-categories="vision ml">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <p class="project-type">RESEARCH · COMPUTER VISION</p>
+            <h3>Depth Estimation for Surgical Scenes</h3>
+            <p>Research engineering on depth estimation for minimally invasive surgery, exploring computer-vision methods for surgical-scene understanding.</p>
+            <ul class="tech-list"><li>Python</li><li>Deep learning</li><li>Computer vision</li><li>PyTorch</li></ul>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </article>
+
+        <article class="project" data-categories="vision">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <p class="project-type">DESKTOP APP · COMPUTER VISION</p>
+            <h3>Depth Player App</h3>
+            <p>A desktop viewer for synchronized RGB sequences and stereo disparity/depth outputs from FoundationStereo, RAFTStereo, and RAFT, with playback, visualization, and comparison controls.</p>
+            <ul class="tech-list"><li>Python</li><li>NumPy</li><li>Matplotlib</li><li>ttkbootstrap</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="nlp ml">
+          <div class="project-number">05</div>
+          <div class="project-content">
+            <p class="project-type">NLP · TEXT CLASSIFICATION</p>
+            <h3>Detecting LLM-Generated Arabic Text</h3>
+            <p>A binary text classifier fine-tuned from AraBERTv02 to distinguish human-written Arabic passages from LLM-generated text. The reported development-split F1 was approximately 1.00; this result should be interpreted in the context of the dataset and evaluation setup.</p>
+            <ul class="tech-list"><li>PyTorch</li><li>Transformers</li><li>AraBERT</li><li>Text classification</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="vision ml">
+          <div class="project-number">06</div>
+          <div class="project-content">
+            <p class="project-type">REINFORCEMENT LEARNING · SEGMENTATION</p>
+            <h3>Reinforced Active Learning for Image Segmentation</h3>
+            <p>Implementation inspired by RALIS: a DQN agent selects informative image regions to annotate, while a U-Net with a ResNet34 backbone learns semantic segmentation on CamVid.</p>
+            <ul class="tech-list"><li>PyTorch</li><li>TensorFlow / Keras</li><li>DQN</li><li>U-Net</li><li>CamVid</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="ml">
+          <div class="project-number">07</div>
+          <div class="project-content">
+            <p class="project-type">DEEP LEARNING · FROM SCRATCH</p>
+            <h3>Neural Network from Scratch</h3>
+            <p>A modular feedforward neural network implemented with NumPy and trained on MNIST, including manual forward/backpropagation and Gradient Descent, Adagrad, Momentum, and RMSProp optimizers.</p>
+            <ul class="tech-list"><li>Python</li><li>NumPy</li><li>Backpropagation</li><li>Optimization</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="systems ml">
+          <div class="project-number">08</div>
+          <div class="project-content">
+            <p class="project-type">IOT · SMART AGRICULTURE</p>
+            <h3>SIIE — Smart Irrigation</h3>
+            <p>An academic smart-farm prototype combining ESP32 sensors, a Django backend, MongoDB, logistic-regression-based irrigation decisions, a relay-controlled pump, and an Android monitoring app.</p>
+            <ul class="tech-list"><li>ESP32</li><li>Django</li><li>MongoDB</li><li>scikit-learn</li><li>Android</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="nlp ml">
+          <div class="project-number">09</div>
+          <div class="project-content">
+            <p class="project-type">TIME SERIES · NLP · GENERATIVE MODELS</p>
+            <h3>Stock Prediction with GAN & Sentiment</h3>
+            <p>An academic forecasting pipeline combining historical OHLCV data with sentiment scores extracted from tweets, using an LSTM-based generator and a CNN discriminator, evaluated against a Random Forest baseline.</p>
+            <ul class="tech-list"><li>TensorFlow / Keras</li><li>NLTK</li><li>VADER</li><li>LSTM</li><li>GAN</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="ml">
+          <div class="project-number">10</div>
+          <div class="project-content">
+            <p class="project-type">METAHEURISTICS · OPTIMIZATION</p>
+            <h3>Gray Wolf Optimizer Applications</h3>
+            <p>Explored Gray Wolf Optimization for neural-network hyperparameter tuning, direct weight/bias optimization, and the Traveling Salesman Problem.</p>
+            <ul class="tech-list"><li>Python</li><li>NumPy</li><li>TensorFlow / Keras</li><li>Optimization</li></ul>
+          </div>
+          <a class="project-arrow" href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">↗</a>
+        </article>
+
+        <article class="project" data-categories="ml">
+          <div class="project-number">11</div>
+          <div class="project-content">
+            <p class="project-type">PREDICTIVE ANALYTICS</p>
+            <h3>Time-Series Forecasting & Predictive Modeling</h3>
+            <p>Modeling workflows covering data preparation, feature engineering, temporal validation, model comparison, and evaluation using appropriate metrics.</p>
+            <ul class="tech-list"><li>Pandas</li><li>scikit-learn</li><li>Feature engineering</li><li>Model evaluation</li></ul>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+      <p class="section-note">Repository links currently point to your GitHub profile. Replace them with individual repository URLs when you are ready to publish each project. Only share code and results you are authorized to make public.</p>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT</p>
+          <h2>Research thinking.<br>Engineering delivery.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I am a Data Science Engineer with dual Master's degrees in Data Exploration & Decision Intelligence and Web Intelligence & Data Science. My background spans applied AI research, industrial data workflows, predictive modeling, NLP, and computer vision.</p>
+          <p>I care about reproducible experiments, useful evaluation, maintainable code, and communicating model limitations clearly. I am based in Fès, Morocco, and open to suitable remote collaborations.</p>
+          <div class="education">
+            <div><span>MASTER'S</span><strong>Data Exploration & Decision Intelligence</strong><small>Université Sorbonne Paris Nord · 2023–2025</small></div>
+            <div><span>MASTER'S</span><strong>Web Intelligence & Data Science</strong><small>Université Sidi Mohamed Ben Abdellah · 2023–2025</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">TOOLKIT</p><h2>Skills & technologies</h2></div>
+        <p class="section-intro">A practical set of tools for data analysis, modeling, and delivery.</p>
+      </div>
+      <div class="skill-grid">
+        <div><h3>Programming</h3><p>Python, SQL, Java, C/C++</p></div>
+        <div><h3>Data science</h3><p>Pandas, NumPy, scikit-learn, statistics, EDA</p></div>
+        <div><h3>Machine learning</h3><p>Classification, regression, clustering, anomaly detection, forecasting</p></div>
+        <div><h3>Deep learning</h3><p>PyTorch, TensorFlow / Keras, Transformers</p></div>
+        <div><h3>Computer vision</h3><p>OpenCV, image segmentation, depth estimation</p></div>
+        <div><h3>NLP</h3><p>AraBERT, text classification, sentiment analysis</p></div>
+        <div><h3>Data systems</h3><p>PostgreSQL, TimescaleDB, ClickHouse, MongoDB</p></div>
+        <div><h3>Engineering</h3><p>FastAPI, Django, Docker, Git, Linux</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's solve a useful problem.</h2>
+        <p>For data science, machine learning, or applied AI collaborations, reach out using any of the links below.</p>
+        <div class="contact-links">
+          <a href="mailto:boukhrishamid17@gmail.com">boukhrishamid17@gmail.com ↗</a>
+          <a href="tel:+212684588169">+212 684-588169 ↗</a>
+          <a href="https://github.com/Hamid101101" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/abdelhamid-boukhris-43700327b" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.fiverr.com/hamid_boukhris/build-machine-learning-models-and-ai-solutions-using-python" target="_blank" rel="noopener noreferrer">Fiverr ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <a class="wordmark" href="#home" aria-label="Abdelhamid Boukhris home"><img src="images/logos/ab.png" alt="AB." width="64" height="48" style="display:block;width:64px;height:auto"></a>
+    <span>© <span id="year"></span> Abdelhamid Boukhris</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
